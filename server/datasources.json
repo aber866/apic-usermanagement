@@ -1,1 +1,7 @@
-{}
+{
+  "mongo": {
+    "database": "users",
+    "name": "mongo",
+    "connector": "mongodb"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "loopback-component-explorer": {
+    "apiInfo": {
+      "description": "REST API implemented with LoopBack in the IBM API Connect system to manage a user collection."
+    }
+  }
+}

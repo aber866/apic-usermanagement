@@ -1,0 +1,37 @@
+{
+  "name": "user",
+  "plural": "users",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "age": {
+      "type": "number",
+      "required": false,
+      "description": "User age"
+    },
+    "email": {
+      "type": "string",
+      "required": false,
+      "description": "User e-mail"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "User name"
+    },
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true,
+      "index": true,
+      "description": "User id"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

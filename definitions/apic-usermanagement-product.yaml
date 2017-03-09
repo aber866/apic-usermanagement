@@ -1,0 +1,28 @@
+product: 1.0.0
+info:
+  name: apic-usermanagement
+  title: apic-usermanagement
+  version: 1.0.0
+  description: >-
+    Tutorial to create a REST API implemented with LoopBack in the IBM API
+    Connect system
+  contact:
+    name: Alberto Valverde
+    email: aber866@gmail.com
+    url: 'https://github.com/aber866/apic-usermanagement.git'
+apis:
+  apic-usermanagement:
+    $ref: apic-usermanagement.yaml
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+plans:
+  default:
+    title: Default Plan
+    description: Default Plan
+    approval: false
+    rate-limit:
+      value: 100/hour
+      hard-limit: false
